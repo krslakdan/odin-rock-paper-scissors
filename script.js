@@ -40,8 +40,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice(){
-    let input=prompt("Choose between rock, paper or scissors");
-    return input;
+    return prompt("Choose between rock, paper or scissors");
 }
 
 playRound(getComputerChoice(), getHumanChoice());
